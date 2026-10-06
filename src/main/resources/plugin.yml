@@ -1,7 +1,7 @@
 name: Tumbleweed
 main: net.tumbleweed.paper.TumbleweedPlugin
 version: 1.0.0
-api-version: '26.2'
+api-version: '26.3'
 depend: [MythicMobs, ModelEngine]
 softdepend: [CraftEngine]
 authors: [Tumbleweed]
