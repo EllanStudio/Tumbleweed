@@ -1,4 +1,4 @@
-// Tumbleweed - Paper 26.2 plugin (MythicMobs + ModelEngine integration)
+// Tumbleweed - Paper 26.3 plugin (MythicMobs + ModelEngine integration)
 // Groovy DSL:与 Java 25 上的 Gradle 8.14+ 完全兼容 (Kotlin DSL 在 JDK 25 有 class major version 限制)
 
 plugins {
@@ -20,8 +20,8 @@ repositories {
 }
 
 dependencies {
-    // Paper 26.2 API (提供 org.joml 传递依赖)
-    compileOnly 'io.papermc.paper:paper-api:26.2.build.87-stable'
+    // Paper 26.3 API (提供 org.joml 传递依赖)
+    compileOnly 'io.papermc.paper:paper-api:26.3.build.157-beta'
 
     // MythicMobs 5.13.1 (最新,compileOnly)
     compileOnly 'io.lumine:Mythic-Dist:5.13.1-SNAPSHOT'
